@@ -22,7 +22,6 @@ build_file_json = json.loads(build_file.read())
 try:
     build_lock_json = json.loads(build_lock_file.read())
 except (Exception) as e:
-    print("ERROR")
     build_lock_json = build_file_json
 
 # build_file_json.
