@@ -1,0 +1,14 @@
+{
+  "module": {
+    "log":{
+      "source":"order",
+      "target":"",
+      "last_commit":""
+    },
+    "web":{
+      "source":"product",
+      "target":"",
+      "last_commit":""
+    }
+  }
+}
